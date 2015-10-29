@@ -16,7 +16,7 @@ namespace TestGitWeb
         {
             AreaRegistration.RegisterAllAreas();
 
-            GlobalConfiguration.Configure(WebApiConfig.Register);
+            GlobalConfiguration.Configure(WebApiConfig.Register); //TODO: fix for new framework
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
